@@ -28,3 +28,19 @@ The lab operates on an isolated virtual network using the `192.168.100.0/24` pri
 - **WS01:** `192.168.100.20`
 - **KALI01:** `192.168.100.30`
 - **Domain:** `home.local`
+
+ ## Security Monitoring
+
+WS01 is configured as the primary monitored endpoint in the lab. Windows security telemetry and Sysmon events are collected from the workstation and forwarded to Splunk Enterprise running on DC01.
+
+The Splunk Universal Forwarder on WS01 sends log data to DC01 over TCP port 9997.
+
+### Monitored Data Sources
+
+- Windows Security Event Log
+- Windows System Event Log
+- Windows Application Event Log
+- Sysmon Operational Log
+- Windows Firewall telemetry
+
+This telemetry provides visibility into authentication activity, process creation, network connections, and other endpoint events used for security investigations and detection development.
