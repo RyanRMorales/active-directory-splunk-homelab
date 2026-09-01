@@ -44,3 +44,22 @@ The Splunk Universal Forwarder on WS01 sends log data to DC01 over TCP port 9997
 - Windows Firewall telemetry
 
 This telemetry provides visibility into authentication activity, process creation, network connections, and other endpoint events used for security investigations and detection development.
+
+## Active Directory & Group Policy
+
+DC01 serves as the domain controller for the `home.local` Active Directory domain. The environment includes organizational units used to separate systems and users, including Workstations, Servers, IT, HR, Finance, and Sales.
+
+WS01 is joined to the domain and placed within the Workstations organizational unit, allowing workstation-specific policies to be centrally managed through Group Policy.
+
+### Workstation Restrictions
+
+A Group Policy Object named `Workstations Restrictions` is linked to the Workstations OU. The policy restricts access to Control Panel and Windows PC settings for users affected by the policy.
+
+The policy was validated from WS01 by attempting to access a restricted Windows setting. Windows blocked the action and displayed a restrictions message, confirming that the Group Policy configuration was successfully applied.
+### Group Policy Configuration
+
+![Workstations Restrictions GPO](Workstations-Restrictions-GPO.png)
+
+### Policy Validation
+
+![WS01 Control Panel Restriction](WS01-GPO-ControlPanel-Restricted.png)
