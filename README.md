@@ -8,6 +8,10 @@ The environment was built in Oracle VirtualBox and includes a Windows Server dom
 
 I use this environment to simulate security events, investigate endpoint and network telemetry, develop SPL detections, and validate alerting workflows.
 
+## Lab Architecture
+
+![Active Directory and Splunk Homelab Architecture](homelab-architecture.png)
+
 ## Lab Environment
 
 | System | Role | Configuration |
