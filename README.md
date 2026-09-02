@@ -63,3 +63,31 @@ The policy was validated from WS01 by attempting to access a restricted Windows 
 ### Policy Validation
 
 ![WS01 Control Panel Restriction](WS01-GPO-ControlPanel-Restricted.png)
+
+## Security Testing & Attack Simulation
+
+KALI01 serves as the security testing system within the lab and is used to generate controlled attack activity against the monitored Windows workstation.
+
+Security testing is performed in the isolated lab environment to generate realistic telemetry that can be collected, investigated, and analyzed in Splunk.
+
+Testing performed within the environment includes:
+
+- Network reconnaissance and port scanning using Nmap
+- Repeated failed authentication attempts to simulate brute-force activity
+- Suspicious PowerShell execution using encoded commands
+
+These simulations provide the telemetry used to practice the full detection workflow, from attack generation and log analysis to detection development and alert validation.
+
+## Detection Engineering
+
+Splunk Enterprise is used as the central platform for investigating security telemetry and developing detections based on activity generated within the lab.
+
+Using Splunk Search Processing Language (SPL), I analyze Windows and Sysmon events, identify relevant fields and behavioral patterns, and develop detection logic designed to identify suspicious activity while reducing unnecessary results.
+
+Detections developed and validated within the environment include:
+
+- Network reconnaissance and port scan detection using Windows Filtering Platform Event ID 5152
+- Failed login and brute-force detection using Windows Security Event ID 4625
+- Suspicious encoded PowerShell detection using Sysmon Event ID 1
+
+Each detection is tested using controlled activity, investigated in Splunk, refined using relevant event fields and thresholds, and configured as a scheduled alert for continued monitoring.
