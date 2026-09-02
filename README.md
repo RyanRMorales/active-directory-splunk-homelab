@@ -119,3 +119,44 @@ Generated controlled encoded PowerShell activity on WS01 and investigated Sysmon
 Developed an SPL detection for PowerShell executions containing encoded command parameters and configured a scheduled high-severity Splunk alert.
 
 **Key Technologies:** PowerShell, Sysmon, Splunk, SPL
+
+## Tools & Technologies
+
+- **SIEM / Log Analysis:** Splunk Enterprise, Splunk Universal Forwarder, SPL
+- **Endpoint Telemetry:** Sysmon, Windows Event Logs, Windows Defender Firewall
+- **Operating Systems:** Windows Server 2025, Windows 10 Pro, Kali Linux
+- **Identity & Administration:** Active Directory Domain Services, DNS, Group Policy
+- **Security Testing:** Nmap, SMB, PowerShell
+- **Virtualization:** Oracle VirtualBox
+
+## Skills Demonstrated
+
+- SIEM monitoring and security event analysis
+- Splunk Search Processing Language (SPL)
+- Detection development and tuning
+- Windows Security Event Log analysis
+- Sysmon process and network telemetry analysis
+- Alert creation and validation
+- Network reconnaissance analysis
+- Authentication and brute-force investigation
+- Suspicious PowerShell activity analysis
+- Active Directory and Group Policy administration
+- Windows endpoint monitoring
+- Security attack simulation using Kali Linux
+
+## Future Development
+
+This homelab will continue to evolve as I develop additional security monitoring and detection capabilities.
+
+Planned improvements include:
+
+- Building a centralized SOC / SIEM monitoring dashboard in Splunk
+- Developing additional detection rules for suspicious Windows and network activity
+- Expanding security telemetry and monitoring capabilities
+- Continuing to simulate security events and practice SOC investigation workflows
+
+## Lab Scope
+
+All security testing and attack simulations documented in this repository were performed within an isolated virtual lab environment for educational and cybersecurity training purposes.
+
+
