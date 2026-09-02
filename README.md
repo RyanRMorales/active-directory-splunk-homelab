@@ -91,3 +91,31 @@ Detections developed and validated within the environment include:
 - Suspicious encoded PowerShell detection using Sysmon Event ID 1
 
 Each detection is tested using controlled activity, investigated in Splunk, refined using relevant event fields and thresholds, and configured as a scheduled alert for continued monitoring.
+
+## Completed Security Projects
+
+The following projects were developed within this homelab to practice security monitoring, investigation, detection engineering, and alert validation using realistic Windows and Sysmon telemetry.
+
+### Network Reconnaissance / Port Scan Detection
+
+Simulated network reconnaissance from KALI01 using Nmap and investigated blocked network traffic from WS01 using Windows Filtering Platform Event ID 5152.
+
+Developed an SPL detection that identifies sources targeting a high number of unique destination ports and configured a scheduled high-severity Splunk alert.
+
+**Key Technologies:** Kali Linux, Nmap, Splunk, Windows Filtering Platform, SPL
+
+### Failed Login / Brute-Force Detection
+
+Simulated repeated failed SMB authentication attempts from KALI01 against WS01 and investigated Windows Security Event ID 4625 authentication failures in Splunk.
+
+Developed an SPL detection for repeated failed logins originating from the same source and account within a defined time window and configured a scheduled high-severity Splunk alert.
+
+**Key Technologies:** Kali Linux, SMB, Splunk, Windows Security Logs, SPL
+
+### Suspicious PowerShell Activity Detection
+
+Generated controlled encoded PowerShell activity on WS01 and investigated Sysmon Event ID 1 process creation telemetry in Splunk.
+
+Developed an SPL detection for PowerShell executions containing encoded command parameters and configured a scheduled high-severity Splunk alert.
+
+**Key Technologies:** PowerShell, Sysmon, Splunk, SPL
