@@ -96,7 +96,7 @@ Each detection is tested using controlled activity, investigated in Splunk, refi
 
 The following projects were developed within this homelab to practice security monitoring, investigation, detection engineering, and alert validation using realistic Windows and Sysmon telemetry.
 
-### Network Reconnaissance / Port Scan Detection (https://github.com/RyanRMorales/network-reconnaissance-port-scan-detection)
+### [Network Reconnaissance / Port Scan Detection](https://github.com/RyanRMorales/network-reconnaissance-port-scan-detection)
 
 Simulated network reconnaissance from KALI01 using Nmap and investigated blocked network traffic from WS01 using Windows Filtering Platform Event ID 5152.
 
@@ -104,7 +104,7 @@ Developed an SPL detection that identifies sources targeting a high number of un
 
 **Key Technologies:** Kali Linux, Nmap, Splunk, Windows Filtering Platform, SPL
 
-### Failed Login / Brute-Force Detection (https://github.com/RyanRMorales/failed-login-brute-force-detection)
+### [Failed Login / Brute-Force Detection](https://github.com/RyanRMorales/failed-login-brute-force-detection)
 
 Simulated repeated failed SMB authentication attempts from KALI01 against WS01 and investigated Windows Security Event ID 4625 authentication failures in Splunk.
 
@@ -112,7 +112,7 @@ Developed an SPL detection for repeated failed logins originating from the same 
 
 **Key Technologies:** Kali Linux, SMB, Splunk, Windows Security Logs, SPL
 
-### Suspicious PowerShell Activity Detection (https://github.com/RyanRMorales/suspicious-powershell-activity-detection)
+### [Suspicious PowerShell Activity Detection](https://github.com/RyanRMorales/suspicious-powershell-activity-detection)
 
 Generated controlled encoded PowerShell activity on WS01 and investigated Sysmon Event ID 1 process creation telemetry in Splunk.
 
