@@ -146,14 +146,15 @@ Developed an SPL detection for PowerShell executions containing encoded command 
 
 ## Future Development
 
-This homelab will continue to evolve as I develop additional security monitoring and detection capabilities.
+This homelab will continue to evolve as I develop additional security monitoring, detection, and investigation capabilities.
 
 Planned improvements include:
 
-- Building a centralized SOC / SIEM monitoring dashboard in Splunk
-- Developing additional detection rules for suspicious Windows and network activity
-- Expanding security telemetry and monitoring capabilities
-- Continuing to simulate security events and practice SOC investigation workflows
+- Expanding detection coverage for additional Windows and network-based threats
+- Incorporating packet analysis with Wireshark for deeper network traffic investigation
+- Developing more advanced attack simulations and multi-stage detection scenarios
+- Expanding security telemetry and data sources available within Splunk
+- Continuing to improve SOC investigation, alert triage, and incident analysis workflows
 
 ## Lab Scope
 
