@@ -120,6 +120,14 @@ Developed an SPL detection for PowerShell executions containing encoded command 
 
 **Key Technologies:** PowerShell, Sysmon, Splunk, SPL
 
+### [SOC Security Monitoring Dashboard](https://github.com/RyanRMorales/soc-SIEM-monitoring-dashboard)
+
+Developed a centralized SOC monitoring dashboard in Splunk that combines suspicious authentication, network reconnaissance, and suspicious PowerShell activity into a single monitoring interface.
+
+Created single-value panels for rapid detection visibility and detailed investigation tables that provide analysts with relevant event context for triage and further investigation.
+
+**Key Technologies:** Splunk Enterprise, SPL, Windows Security Logs, Sysmon, Windows Filtering Platform
+
 ## Tools & Technologies
 
 - **SIEM / Log Analysis:** Splunk Enterprise, Splunk Universal Forwarder, SPL
