@@ -159,9 +159,10 @@ This homelab will continue to evolve as I develop additional security monitoring
 Planned improvements include:
 
 - Expanding detection coverage for additional Windows and network-based threats
-- Incorporating packet analysis with Wireshark for deeper network traffic investigation
 - Developing more advanced attack simulations and multi-stage detection scenarios
 - Expanding security telemetry and data sources available within Splunk
+- Correlating network packet analysis with SIEM telemetry during security investigations
+- Introducing vulnerability assessment and analysis workflows
 - Continuing to improve SOC investigation, alert triage, and incident analysis workflows
 
 ## Lab Scope
