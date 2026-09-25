@@ -128,6 +128,10 @@ Created single-value panels for rapid detection visibility and detailed investig
 
 **Key Technologies:** Splunk Enterprise, SPL, Windows Security Logs, Sysmon, Windows Filtering Platform
 
+### [Wireshark Network Traffic Analysis](https://github.com/RyanRMorales/wireshark-network-traffic-analysis)
+
+Captured and analyzed network traffic within the home lab using Wireshark. Investigated ICMP, TCP, and DNS activity, analyzed network conversations and TCP connection behavior, followed TCP streams to identify application traffic, and used packet-level evidence to distinguish unusual network activity from confirmed malicious behavior.
+
 ## Tools & Technologies
 
 - **SIEM / Log Analysis:** Splunk Enterprise, Splunk Universal Forwarder, SPL
