@@ -132,6 +132,15 @@ Created single-value panels for rapid detection visibility and detailed investig
 
 Captured and analyzed network traffic within the home lab using Wireshark. Investigated ICMP, TCP, and DNS activity, analyzed network conversations and TCP connection behavior, followed TCP streams to identify application traffic, and used packet-level evidence to distinguish unusual network activity from confirmed malicious behavior.
 
+### [Vulnerability Assessment and Remediation](https://github.com/RyanRMorales/vulnerability-assessment-and-remediation)
+
+Deployed Greenbone/OpenVAS using Docker Compose to conduct vulnerability assessments against an intentionally vulnerable Linux server. Analyzed and prioritized six security findings using CVSS severity ratings, exploitability, and potential impact.
+
+Implemented firewall access restrictions, replaced default administrative credentials, and disabled vulnerable services to address five prioritized findings. Performed a post-remediation assessment and independent connectivity, authentication, and host-level validation to verify the implemented controls. Documented the remaining Ubuntu 8.04 end-of-life vulnerability as an unresolved Critical risk.
+
+**Key Technologies:** Greenbone/OpenVAS, Docker, Linux, iptables, SSH, CVSS, Oracle VirtualBox
+
+
 ## Tools & Technologies
 
 - **SIEM / Log Analysis:** Splunk Enterprise, Splunk Universal Forwarder, SPL
@@ -166,7 +175,7 @@ Planned improvements include:
 - Developing more advanced attack simulations and multi-stage detection scenarios
 - Expanding security telemetry and data sources available within Splunk
 - Correlating network packet analysis with SIEM telemetry during security investigations
-- Introducing vulnerability assessment and analysis workflows
+- Expanding the homelab with IT support and help desk workflows, including a self-hosted ticketing system
 - Continuing to improve SOC investigation, alert triage, and incident analysis workflows
 
 ## Lab Scope
