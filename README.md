@@ -141,29 +141,35 @@ Implemented firewall access restrictions, replaced default administrative creden
 **Key Technologies:** Greenbone/OpenVAS, Docker, Linux, iptables, SSH, CVSS, Oracle VirtualBox
 
 
+
 ## Tools & Technologies
 
 - **SIEM / Log Analysis:** Splunk Enterprise, Splunk Universal Forwarder, SPL
 - **Endpoint Telemetry:** Sysmon, Windows Event Logs, Windows Defender Firewall
-- **Operating Systems:** Windows Server 2025, Windows 10 Pro, Kali Linux
+- **Operating Systems:** Windows Server 2025, Windows 10 Pro, Kali Linux, Ubuntu Linux
 - **Identity & Administration:** Active Directory Domain Services, DNS, Group Policy
-- **Security Testing:** Nmap, SMB, PowerShell
-- **Virtualization:** Oracle VirtualBox
+- **Security Testing:** Nmap, SMB, PowerShell, Netcat
+- **Network Traffic Analysis:** Wireshark, TCP/IP, DNS, ICMP
+- **Vulnerability Management:** Greenbone/OpenVAS, CVSS, Vulnerability Scanning and Validation
+- **Linux Security & Administration:** iptables, SSH, Service Configuration, Process and Port Inspection
+- **Containers & Virtualization:** Docker, Docker Compose, Oracle VirtualBox
 
 ## Skills Demonstrated
 
-- SIEM monitoring and security event analysis
-- Splunk Search Processing Language (SPL)
-- Detection development and tuning
-- Windows Security Event Log analysis
-- Sysmon process and network telemetry analysis
-- Alert creation and validation
-- Network reconnaissance analysis
-- Authentication and brute-force investigation
-- Suspicious PowerShell activity analysis
-- Active Directory and Group Policy administration
-- Windows endpoint monitoring
-- Security attack simulation using Kali Linux
+- SIEM monitoring and security event analysis using Splunk Enterprise
+- SPL query development, security dashboards, and alert configuration
+- Detection and investigation of suspicious PowerShell activity, failed authentication attempts, and network reconnaissance
+- Windows Event Log analysis and endpoint monitoring using Sysmon
+- Active Directory administration, user management, and Group Policy configuration
+- Network traffic capture and protocol analysis using Wireshark
+- TCP/IP troubleshooting and interpretation of DNS, ARP, ICMP, and TCP communications
+- Vulnerability scanning and assessment using Greenbone/OpenVAS
+- CVSS-based vulnerability risk assessment and remediation prioritization
+- Linux system administration, service management, and firewall access control
+- Security remediation through credential replacement, service deactivation, and network access restrictions
+- Post-remediation validation using connectivity testing, authentication verification, and host-level inspection
+- Vulnerability documentation, technical reporting, and residual risk assessment
+- Virtual machine deployment, isolated network configuration, and Docker-based service deployment
 
 ## Future Development
 
